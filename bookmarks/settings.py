@@ -26,7 +26,7 @@ SECRET_KEY = 'jn2qn+=rwdc6q*n#y1mxd07rl-j05s6!ax-w1!m!%4_^rs8xa7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["nileware.org", "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'django_extensions',
 
 ]
 
