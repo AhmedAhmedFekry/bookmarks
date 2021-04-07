@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
+    'images.apps.ImagesConfig',
+    'easy_thumbnails',
+
 
 ]
 
